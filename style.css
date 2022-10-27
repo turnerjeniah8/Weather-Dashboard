@@ -1,0 +1,29 @@
+
+
+nav{
+    background-color: darkblue;
+}
+
+.navBar{
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.weatherContainers{
+    display: flex;
+}
+
+.searchSection{
+    max-width: 280px;
+}
+
+.searchBtn{
+    background-color: lightseagreen;
+}
+
+.resultsContainer{
+
+}
