@@ -11,10 +11,10 @@
 </head>
 
 <header>
- <!--This is the nav bar, might replace this with a jumbotron-->
-<nav class="navBar">
-    <div class="container is-fullhd"> Weather Dashboard</div>
-</nav>   
+    <!--This is the nav bar, might replace this with a jumbotron-->
+    <nav class="navBar">
+        <div class="container is-fullhd"> Weather Dashboard</div>
+    </nav>
 </header>
 
 <!--This is the search section where users will put a city-->
@@ -24,33 +24,72 @@
             <article class="tile is-child box">
                 <section class="leftSection">
                     <h1 class="title">Search For a City</h1>
-                    <input class="input" type="text" placeholder="San Diego">
-                    <input class="button is-fullwidth is-info" type="submit" value="Search">
+                    <input class="input" type="text" id="citySearch" placeholder="San Diego">
+                    <input class="button is-fullwidth is-info" id="search-btn" type="submit" value="Search">
                 </section>
         </div>
         </article>
     </div>
     <!--Section for city search history-->
-        <!--<input class=" button is-fullwidth" type="button" id="clear-history">Clear history</button>
+    <!--<input class=" button is-fullwidth" type="button" id="clear-history">Clear history</button>
         <ul class="list-group">    
 
         </ul>
     -->
     <!--This container will display the results when the user clicks the search button-->
     <div class="resultsContainer" id="currentWeather">
-            <div class="notification">
-              <h3 class="city-name" id="currentCity"> 
-              </h3>
-              <p> Temperature: <span class="current" id="temperature"></span></p>
-              <p> Wind: <span class="current" id="Wind"></span></p>
-              <p> Humidity: <span class="current" id="humidity"></span></p>
-              <p> UV Index: <span class="current" id="uv-index"></span></p>
-          </div>
+        <div class="notification">
+            <h3 class="city-name" id="currentCity">
+            </h3>
+            <p> Temperature: <span class="current" id="temperature"></span></p>
+            <p> Wind: <span class="current" id="wind"></span></p>
+            <p> Humidity: <span class="current" id="humidity"></span></p>
+            <p> UV Index: <span class="current" id="uv-index"></span></p>
+        </div>
     </div>
     <!--Row for future weather broadcasts-->
     <div class="futureWeather">
         <h2> 5-day Forecast </h2>
-    </div>
+        <div class="card1">
+            <div class="primary forecast">
+                <p id="fDate0"></p>
+                <p id="fImg0"></p>
+                <p>Temp:<span id="fTemp0"></span></p>
+                <p>Humidity:<span id="fHumidity0"></span></p>
+            </div>
+        </div>
+        <div class="card2">
+            <div class="primary forecast">
+                <p id="fDate0"></p>
+                <p id="fImg0"></p>
+                <p>Temp:<span id="fTemp0"></span></p>
+                <p>Humidity:<span id="fHumidity0"></span></p>
+            </div>
+        </div>
+        <div class="card3">
+            <div class="primary forecast">
+                <p id="fDate0"></p>
+                <p id="fImg0"></p>
+                <p>Temp:<span id="fTemp0"></span></p>
+                <p>Humidity:<span id="fHumidity0"></span></p>
+            </div>
+        </div>
+        <div class="card4">
+            <div class="primary forecast">
+                <p id="fDate0"></p>
+                <p id="fImg0"></p>
+                <p>Temp:<span id="fTemp0"></span></p>
+                <p>Humidity:<span id="fHumidity0"></span></p>
+            </div>
+        </div>
+        <div class="card5">
+            <div class="primary forecast">
+                <p id="fDate0"></p>
+                <p id="fImg0"></p>
+                <p>Temp:<span id="fTemp0"></span></p>
+                <p>Humidity:<span id="fHumidity0"></span></p>
+            </div>
+        </div>
+        </div>
 </section>
-
 </html>
