@@ -13,3 +13,5 @@ The goal was to successfully use local storage to store the previous searched ci
 
 
 
+# Screenshot 
+![Screenshot (18)](https://user-images.githubusercontent.com/100052698/198818197-31b69d34-90d0-4096-b051-11e0526b37b0.png)
