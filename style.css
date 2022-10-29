@@ -18,12 +18,18 @@ nav{
 
 .searchSection{
     max-width: 280px;
+    width: 30%;
 }
 
+.card{
+    width: 30%;
+    margin-left: 10px;
+}
 .searchBtn{
     background-color: lightseagreen;
 }
 
-.resultsContainer{
-
+.futureWeather{
+    display: flex;
+    flex-direction: column;
 }
